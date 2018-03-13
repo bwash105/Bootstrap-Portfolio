@@ -47,7 +47,7 @@ h1 {
 
 h2,
 h3 {
-  font-size: 22px;
+  font-size: 18px;
 }
 
 /* header */
@@ -78,8 +78,9 @@ h3 {
 }
 
 nav {
-  float: right;
+  /* float: right; */
   margin-top: 25px;
+  padding: 5px;
 }
 
 nav a {
@@ -214,4 +215,33 @@ input[type=submit] {
   cursor: pointer;
   background: #4aaaa5;
   border: 0 none;
+}
+
+/* sidebar */
+.sidebar {
+  background: #fff;
+  padding: 30px;
+  width: 100%;
+  max-width: 270px;
+  float: right;
+  border: 1px solid #ddd;
+  margin-bottom: 20px;
+}
+
+h3, .sidebar, h2 {
+  border-bottom: 2px solid #eee;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
+  line-height: 22px;
+}
+
+.social {
+  width: 62px;
+  height: 62px;
+  margin-top: 8px;
+  margin-right: 5px;
+}
+
+.social:last-child {
+  margin-right: 0;
 }
